@@ -81,7 +81,7 @@ nav {
 .container {
   display: flex;
   justify-content: space-between;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 13px 5%;
 }
 
@@ -271,7 +271,7 @@ nav {
 }
 
 .write-post-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background: #fff;
   color: #626262;
   border-radius: 6px;
@@ -295,16 +295,114 @@ nav {
   font-size: 1.2rem;
   margin-top: 10px;
 }
-.post-input-container{
-  border: 2px solid red;
+.post-input-container {
+  /* border: 2px solid red; */
   padding-left: 55px;
   padding-top: 20px;
 }
-.post-input-container textarea{
+.post-input-container textarea {
   width: 100%;
   border: 0;
   outline: 0;
   border-bottom: 1px solid #ccc;
   background: transparent;
   font-size: 1.4rem;
+  resize: none;
+  /* border: 2px solid red; */
+}
+.add-post-links {
+  display: flex;
+  margin-top: 10px;
+}
+
+.add-post-links a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  font-size: 1.3rem;
+  color: #626262;
+}
+.add-post-links a img {
+  width: 2rem;
+  margin-right: 10px;
+}
+
+.post-container {
+  border: 2px solid red;
+  width: 100%;
+  background: #fff;
+  margin: 20px 0;
+  border-radius: 6px;
+  color: #626262;
+  padding: 20px;
+}
+
+.user-profile span {
+  font-size: 1.3rem;
+  color: #9a9a9a;
+}
+.post-text {
+  color: #9a9a9a;
+  margin: 20px 0;
+  font-size: 1.6rem;
+}
+.post-text span {
+  color: #626262;
+  font-weight: 600;
+}
+.post-text a {
+  color: #1876f2;
+  text-decoration: none;
+}
+.post-img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+.post-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.activity-icons div img {
+  width: 1.8rem;
+  margin-right: 10px;
+}
+.activity-icons div {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.4rem;
+  margin-right: 30px;
+}
+
+.post-profile-icon {
+  display: flex;
+  align-items: center;
+}
+.post-profile-icon img {
+  width: 2rem;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.post-row a {
+  color: #626262;
+  font-size: 1.2rem;
+}
+.load-more-btn {
+  display: block;
+  margin: auto;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 0;
+  border: 1px solid #9a9a9a;
+  color: #626262;
+  background: transparent;
+  border-radius: 4px;
+}
+.footer{
+  text-align: center;
+  color: #9a9a9a;
+  padding: 10px 0 20px;
+  font-size: 1.3rem;
 }
