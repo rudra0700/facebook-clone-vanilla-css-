@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'poppins', 'sans-serif';
+  font-family: "poppins", "sans-serif";
   box-sizing: border-box;
 }
 body {
@@ -182,34 +182,93 @@ nav {
   font-size: 1.4rem;
   padding: 4px 0;
 }
-.sidebar-ads{
+.sidebar-ads {
   width: 100%;
   margin-bottom: 20px;
   border-radius: 4px;
 }
 
-.online-list{
+.online-list {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
   font-size: 1.6rem;
 }
-.online-list .online img{
+.online-list .online img {
   width: 4rem;
   border-radius: 50%;
 }
-.online-list .online{
+.online-list .online {
   width: 4rem;
   border-radius: 50%;
   margin-right: 15px;
 }
-.online-list .online::after{
- top: unset;
- bottom: 5px;
+.online-list .online::after {
+  top: unset;
+  bottom: 5px;
 }
 
 /* main content */
 .main-content {
   /* border: 2px solid red; */
   flex-basis: 47%;
+}
+.story-gallery {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.story {
+  /* border: 2px solid red; */
+  flex-basis: 18%;
+  padding-top: 32%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.story img {
+  position: absolute;
+  width: 4.5rem;
+  border-radius: 50%;
+  top: 10px;
+  left: 10px;
+  border: 5px solid #1876f2;
+}
+.story p {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 1.6rem;
+}
+.story1 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
+    url("./images/status-1.png");
+}
+.story2 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
+    url("./images/status-2.png");
+}
+.story3 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
+    url("./images/status-3.png");
+}
+.story4 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
+    url("./images/status-4.png");
+}
+.story5 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
+    url("./images/status-5.png");
+}
+.story.story1 img{
+  top: unset;
+  bottom: 40px;
+  left: 50%;
+  width: 3.5rem;
+  transform: translateX(-50%);
+  border: 0;
 }
